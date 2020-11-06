@@ -24,7 +24,7 @@ Acceptance Criteria:
   
 Steps for run docker container db
   -  Clone repository: `git clone <url>`
-  - `cd technical-test-sigma`
+  - `cd test-sigma`
   - `yarn db`
   - port: 3306
   
