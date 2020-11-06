@@ -1,0 +1,9 @@
+.containerBody {
+  margin-top: 70px;
+}
+
+.ui.segment.cardForm {
+  border-radius: 30px;
+  padding: 45px;
+  box-shadow: 2px 3px 14px 7px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,15 @@
+.ui.button.buttonSubmit:hover {
+  background-color: rgb(214, 99, 115);
+}
+
+.ui.button.buttonSubmit {
+  margin-top: 5rem;
+  background-color: rgb(218, 118, 131);
+  border-radius: 27px;
+  width: 12rem;
+  margin-top: 12px;
+}
+
+.buttonText {
+  color: #fff;
+}

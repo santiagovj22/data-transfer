@@ -1,0 +1,15 @@
+.logo,
+.subtitle {
+  margin-top: 2rem;
+}
+
+h1.ui.header {
+  font-weight: bold;
+  color: #000000;
+}
+
+.ui.header .sub.header.subtitle {
+  font-weight: 700;
+  font-size: 15px;
+  color: #736e6e;
+}

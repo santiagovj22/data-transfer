@@ -1,0 +1,36 @@
+version: '3.8'
+
+services: 
+
+    api:
+        image: node:14.4-alpine
+        build: ../api
+        container_name: api
+        depends_on: 
+            - database
+        networks: ['tools_default']    
+        ports: 
+            - 3001:3001    
+
+    database:
+        image: mysql:latest
+        container_name: db
+        environment:
+            MYSQL_ROOT_PASSWORD: secret 
+        volumes: 
+            - "mysql-db,dst=/var/lib/mysql mysql"
+            - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+        networks: ['tools_default']   
+        ports: 
+            - "3306:3306"
+    
+    ui:
+        image: nginx:alpine
+        build: ../ui  
+        container_name: ui
+        ports:
+         - 3002:80  
+
+networks:
+    tools_default:
+        driver: bridge          

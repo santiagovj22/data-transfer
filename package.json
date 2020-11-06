@@ -1,0 +1,12 @@
+{
+  "name": "technical-test-sigma",
+  "version": "1.0.0",
+  "description": "Test sigma studios",
+  "scripts": {
+    "api": "docker-compose -f tools/docker-compose.yaml up --build api database",
+    "db": "docker-compose -f tools/docker-compose.yaml up database",
+    "ui": "docker-compose -f tools/docker-compose.yaml up ui"
+  },
+  "author": "Santiago valle <santiagovj0422@gmail.com>",
+  "license": "ISC"
+}
