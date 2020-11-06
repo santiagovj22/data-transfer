@@ -30,10 +30,11 @@ Steps for run docker container db
   
 Steps for run docker container api
   - `yarn api`
-  - after the container db is running maybe the api logs show something like Econnrefused, to fix please 
-    executed the next commands
+  - after the container db is running maybe the api logs show something like Econnrefused, or just server on port , 
+    you need fix this executing the next commands
   - `docker exec -it db bash`
   - `mysql -uroot -p`
+  - password: `secret`
   - `ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'secret';`
   - `flush privileges;`
   - `exit` twice
