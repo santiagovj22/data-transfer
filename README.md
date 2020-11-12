@@ -69,3 +69,5 @@ Notes :'c :
   Thanks a lot for the opportunity and i hope you like my work
   
   PD: if you want run the project as local way just change the variable at the path `technical-test-sigma/api/src/dataAccessLayer/database` open the file database.js and host:db ---> change to host:localhost
+
+https://refactoring.guru/es
