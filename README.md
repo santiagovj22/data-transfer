@@ -1,5 +1,4 @@
-# technical-test-sigma
-Technical test for sigma studios
+# App data transfer departments
 
 ### By: Santiago Valle
 
@@ -24,7 +23,7 @@ Acceptance Criteria:
   
 Steps for run docker container db
   -  Clone repository: `git clone <url>`
-  - `cd test-sigma`
+  - `cd App data-transfer`
   - `yarn db`
   - port: 3306
   
@@ -62,12 +61,5 @@ Notes :'c :
   - the project architecture was build having in mind for the future, scalable, other devs would read the code, etc
     also with the bonus i added the docker container to more easy read and access
     
-    bads...
-  - i need add more unit test
-  - i need build a best way for handler the exceptions and errors
-  
-  Thanks a lot for the opportunity and i hope you like my work
-  
-  PD: if you want run the project as local way just change the variable at the path `technical-test-sigma/api/src/dataAccessLayer/database` open the file database.js and host:db ---> change to host:localhost
 
 https://refactoring.guru/es
