@@ -1,7 +1,7 @@
 {
-  "name": "sigma-test-api",
+  "name": "data-transfer-api",
   "version": "1.0.0",
-  "description": "Api for the techical test sigma",
+  "description": "Api",
   "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js",
