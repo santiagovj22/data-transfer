@@ -1,7 +1,7 @@
 {
-  "name": "technical-test-sigma",
+  "name": "data-transfer",
   "version": "1.0.0",
-  "description": "Test sigma studios",
+  "description": "App",
   "scripts": {
     "api": "docker-compose -f tools/docker-compose.yaml up --build api database",
     "db": "docker-compose -f tools/docker-compose.yaml up database",
